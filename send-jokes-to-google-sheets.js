@@ -8,7 +8,7 @@ async function fetchJoke() {
 
 // Fonction pour envoyer la blague au webhook Google Apps Script
 async function sendJokeToGoogleSheets(joke) {
-    const webhookUrl = process.env.WEBHOOK_URL; // Utilise le secret
+_    const webhookUrl = process.env.JOKE_WEBHOOK_URL; // Utilise le secret
 
     await axios.post(webhookUrl, joke);
 }
