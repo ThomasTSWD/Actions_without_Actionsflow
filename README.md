@@ -2,11 +2,12 @@
 
 ```
 
-📁 **my-project/**
-   ├── 📁 **.github/**
-   │   └── 📁 **workflows/**
-   │       └── 📄 **workflow.yml**
-   ├── 📄 **script.js**
+📁 my-project
+   ├── 📁 .github
+   │   └── 📁 workflows
+   │       └── 📄 actions.yml
+   ├── 📄 script.js
+
 
 ```
 
