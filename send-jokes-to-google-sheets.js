@@ -6,15 +6,11 @@ async function fetchJoke() {
     return response.data;
 }
 
-// Fonction pour envoyer la blague au webhook Google Apps Script
-async function sendJokeToGoogleSheets(joke) {
-    //const webhookUrl = process.env.JOKE_WEBHOOK_URL; // Utilise le secret
+// Définit directement l'URL du webhook
     const webhookUrl = "https://script.google.com/macros/s/AKfycbwUTkQqMXKUC2KA9olocfUO2xjjzUZD_IpvK77pCT4MX8mi_ndqgFfThm37HsLMufIB/exec"; // Utilise le secret
 
-    if (!webhookUrl) {
-        throw new Error('JOKE_WEBHOOK_URL secret is not defined.');
-    }
-
+// Fonction pour envoyer la blague au webhook Google Apps Script
+async function sendJokeToGoogleSheets(joke) {
     await axios.post(webhookUrl, joke);
 }
 
