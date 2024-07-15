@@ -2,9 +2,13 @@
 
 
  📁 my-project
+ 
    ├── 📁 .github
+   
    │   └── 📁 workflows
+   
    │       └── 📄 workflow.yml
+   
    ├── 📄 script.js
 
 
