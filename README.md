@@ -1,16 +1,14 @@
 # Github actions
 
+```
 
- 📁 my-project
- 
-   ├── 📁 .github
-   
-   │   └── 📁 workflows
-   
-   │       └── 📄 workflow.yml
-   
-   ├── 📄 script.js
+📁 **my-project/**
+   ├── 📁 **.github/**
+   │   └── 📁 **workflows/**
+   │       └── 📄 **workflow.yml**
+   ├── 📄 **script.js**
 
+```
 
 script.js = node
 
