@@ -2,7 +2,7 @@ name: Fetch Jokes and Save to Google Sheets
 
 on:
   schedule:
-    - cron: "*/5 * * * *"  # Exécute à 8h00 le 1er et le 15 de chaque mois
+    - cron: "0 8 1,15 * *"  # Exécute à 8h00 le 1er et le 15 de chaque mois
     
 
 jobs:
